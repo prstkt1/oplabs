@@ -1,7 +1,5 @@
 function inc(num) {
-    if (typeof num.n === 'number') {
-        num.n += 1;
-    }
+    num.n++;
 }
 
 const obj = { n: 5 };
