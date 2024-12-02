@@ -1,7 +1,7 @@
 function inc(n) {
-    return n + 1;
+    return ++n;
 }
 
 const a = 5;
 const b = inc(a);
-console.dir({a, b}); 
+console.dir({a, b});
