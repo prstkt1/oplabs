@@ -4,7 +4,7 @@ const user = {
      'Kirill' : '+380669841574'
 }
 
-const findPhoneByName = (name) => {
+    const findPhoneByName = (name) => {
     console.log(user[name]);
 }
 
