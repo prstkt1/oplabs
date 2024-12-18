@@ -12,6 +12,6 @@ return x;
 const inc = (x) => ++x;
 const twice = (x) => x * 2;
 const cube = (x) => x ** 3;
-const f = pipe(6,inc, twice, cube);
+const f = pipe(inc, twice, cube);
 const x = f(5);
 console.log(x);
